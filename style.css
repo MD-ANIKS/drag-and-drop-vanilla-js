@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(46, 39, 65);
+}
+.fill {
+  width: 150px;
+  height: 150px;
+  background: url("images/fruits.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.empty {
+  width: 160px;
+  height: 160px;
+  background: white;
+  display: inline-block;
+  margin: 10px;
+}
+
+.hold {
+  border: 4px solid #ccc;
+}
+
+.invisible{
+    display: none;
+}
+
+.hovered{
+    border: 2px dashed #333;
+}
+
+
+
+
+
+
+
